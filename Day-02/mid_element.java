@@ -1,3 +1,5 @@
+//Get size of array,elements and find the middle element
+
 import java.util.Scanner;
 
 class Demo{
