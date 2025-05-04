@@ -2,7 +2,7 @@ class Demo{
 	int rem;
 	int Sub(int a,int b){
 		rem = a- b;
-		return 100;
+		return rem;
 	}
 
 	public static void main(String []args){
