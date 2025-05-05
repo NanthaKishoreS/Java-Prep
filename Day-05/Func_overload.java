@@ -5,7 +5,6 @@ class Find{
 		double n = scan.nextDouble();
 		scan.close();
 		return n;
-		
 	}
 	
 	
@@ -31,4 +30,4 @@ class Find{
 		String Result = f.evenorodd(f.input());
 		System.out.println(Result);
 	}
-}	
+}
