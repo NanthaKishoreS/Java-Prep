@@ -5,9 +5,9 @@ public class Demo {
 		marks = 10;
 		name = "Nantha Kishore S";
 	}
-	Demo(int tm,String tn){
+	Demo(int tm,String tname){
 		marks = tm;
-		name = tn;
+		name = tname;
 	}
 	public static void main(String[]args) {
 		Demo d = new Demo(100,"NK");

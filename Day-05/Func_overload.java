@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Find{
+class Demo{
 	double input(){
 		Scanner scan = new Scanner(System.in);
 		double n = scan.nextDouble();
