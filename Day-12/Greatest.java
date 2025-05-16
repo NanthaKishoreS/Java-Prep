@@ -21,7 +21,7 @@ public class Largest {
             else{
                 System.out.println(c +"  Is the Greatest Number ");
             }
-        }*/
+        }
         int max = a;
         if(b>max){
             max = b;
@@ -29,6 +29,9 @@ public class Largest {
         if (c>max) {
             max = c;
         }
+        System.out.println("The Maximum Number is : "+ max);*/
+
+        int max = Math.max(Math.max(a,b),c);
         System.out.println("The Maximum Number is : "+ max);
     }
 }
