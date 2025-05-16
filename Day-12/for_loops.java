@@ -5,15 +5,18 @@ public class Loops {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         // Print from i to n
-        int n = scan.nextInt();
+//        int n = scan.nextInt();
 //        for(int i=1;i<=n;i++) {
 //            System.out.println(i);
 //        }
         int num = 1;
-        while (num <= n) {
-            System.out.println(num);
+//        while (num <= n) {
+//            System.out.println(num);
+//            num++;
+//        }
+        do{
+            System.out.println("Hello World");
             num++;
-        }
+        }while(num<5);
     }
 }
- 
