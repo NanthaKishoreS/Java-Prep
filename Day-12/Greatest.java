@@ -6,7 +6,7 @@ public class Largest {
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
-        if(a>b){
+        /*if(a>b){
             if(a>c){
                 System.out.println(a + "Is the Greatest Number ");
             }
@@ -21,6 +21,14 @@ public class Largest {
             else{
                 System.out.println(c +"  Is the Greatest Number ");
             }
+        }*/
+        int max = a;
+        if(b>max){
+            max = b;
         }
+        if (c>max) {
+            max = c;
+        }
+        System.out.println("The Maximum Number is : "+ max);
     }
 }
