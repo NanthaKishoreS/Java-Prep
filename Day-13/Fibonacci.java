@@ -7,11 +7,19 @@ public class Fibonacci {
         int n = scan.nextInt();
         int a = 0;
         int b = 1;
-        for(int i=0;i<n;i++){
+        int count  = 2;
+        /*for(int i=0;i<n;i++){
             System.out.println(a);
             int value = a + b;
             a = b;
             b = value;
+        }*/
+        while(count<=n){
+            int temp = b;
+            b = b + a;
+            a = temp;
+            count++;
         }
+        System.out.println(b);
     }
 }
