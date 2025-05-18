@@ -52,6 +52,34 @@ public class NestedSwitch {
             default:
                 System.out.println("No Roll Number Entered !!");
         }
+
+        switch (empID) {
+            case 119 -> {
+                System.out.println("Nantha Kishore ");
+                switch (Department) {
+                    case "IT" -> System.out.println("He is In IT Department");
+                    case "CSE" -> System.out.println("He is In CSE Department");
+                    default -> System.out.println("No Department Entered !!");
+                }
+            }
+            case 105 -> {
+                System.out.println("Mirthun KS");
+                switch (Department) {
+                    case "IT" -> System.out.println("He is In IT Department");
+                    case "CSE" -> System.out.println("He is In CSE Department");
+                    default -> System.out.println("No Department Entered !!");
+                }
+            }
+            case 118 -> {
+                System.out.println("Nanda Kishore Sreejith");
+                switch (Department) {
+                    case "IT" -> System.out.println("He is In IT Department");
+                    case "CSE" -> System.out.println("He is In CSE Department");
+                    default -> System.out.println("No Department Entered !!");
+                }
+            }
+            default -> System.out.println("No Roll Number Entered !!");
+        }
     }
 }
 /*Ouput
