@@ -1,0 +1,16 @@
+in Block scope 
+{
+
+}
+we can assign an already existing variable nut we can reassiging it !
+and when we intilize a variable inside the block scope we cannot access the variable outside the scope...
+for example :
+
+int a = 20;
+{
+    int a =40 //Gives an error and Cannot assign it once again 
+    a = 30 // Will not rise an error 
+
+    int v = 30;
+}
+System.out.print(v);  // this rises an eror message
