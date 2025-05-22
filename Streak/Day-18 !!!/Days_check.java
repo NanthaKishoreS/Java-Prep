@@ -23,5 +23,21 @@ public class DAYS {
                 }
             }
         }
+        if(Choice==2){
+            if(mon.equalsIgnoreCase("January")||mon.equalsIgnoreCase("March")||mon.equalsIgnoreCase("May")||mon.equalsIgnoreCase("July")||mon.equalsIgnoreCase("August")||mon.equalsIgnoreCase("october")||mon.equalsIgnoreCase("December")){
+                System.out.println("The Number of Even Days in the Month Is 15");
+            } else if (mon.equalsIgnoreCase("April")||mon.equalsIgnoreCase("June")||mon.equalsIgnoreCase("September")||mon.equalsIgnoreCase("November")){
+                System.out.println("The Number of Even Days in the Month Is 15");
+            } else if (mon.equalsIgnoreCase("February")) {
+                System.out.println("Enter a Year For Checking Whether it is Leap Year Not !! : ");
+                int year = scan.nextInt();
+                if(year%4==0||(year%100==0&&year%400==0)){
+                    System.out.println("The Number of Even Days in the Month Is 14");
+                }
+                else{
+                    System.out.println("The Number of Even Days in the Month Is 14");
+                }
+            }
+        }
     }
 }
