@@ -16,6 +16,5 @@ public class Code {
         }
         scan.nextLine();
         System.out.println(Arrays.toString(arr));
-
     }
 }
