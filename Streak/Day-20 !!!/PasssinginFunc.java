@@ -7,13 +7,14 @@ public class PassinginFunc {
         System.out.println(Arrays.toString(arr));
         change(arr);
         System.out.println(Arrays.toString(arr));
+        display(arr);
     }
     static void change(int[] a){
         a[0]=99;
     }
     static void display(int[] a){
         for(int i=0;i<a.length;i++){
-            System.out.println(a[i]);
+            System.out.print(a[i]+" ");
         }
     }
 }
