@@ -25,7 +25,7 @@ public class Searchin2d {
         for(int i = 0;i<arr.length;i++){
             for (int j = 0; j < arr[i].length; j++) {
                 if(target==arr[i][j]){
-                    return "The Elements is At "+i+" Column and "+j+" Row";
+                    return "The Elements is At "+i+" Row and "+j+" Column";
                 }
             }
         }
