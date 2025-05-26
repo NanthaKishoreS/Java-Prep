@@ -16,6 +16,7 @@ public class LinearSearch {
 
     }
     static int Linear(int a[],int n){
+        if(a.length ==0) return -1;
         for(int i = 0;i<a.length;i++){
             if (a[i] == n) {
                 return i;
